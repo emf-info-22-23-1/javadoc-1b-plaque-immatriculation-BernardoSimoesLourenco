@@ -14,7 +14,7 @@ public class Application {
     public static void main(String[] args) {
         Worker wrk = new Worker();
         
-        if (wrk.controlePlaqueImmatriculation("VALEUR1", "VALEUR2")) {
+        if (wrk.controlePlaqueImmatriculation("FR", "000000000")) {
             System.out.println("IMMATRICULATION OK");
         } else {
             System.out.println("IMMATRICULATION NOK");
